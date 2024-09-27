@@ -1,36 +1,33 @@
 .graphic-designer,
 .john-doe {
-  position: absolute;
-  top: calc(50% - 14.5px);
+  position: relative;
   letter-spacing: -0.2px;
   line-height: 29px;
 }
-.john-doe {
-  left: 0;
-  display: inline-block;
-  min-width: 108px;
-}
 .graphic-designer {
-  left: 38.41%;
-  opacity: 0.7;
+  width: 120px;
+  color: var(--color-gray-200);
+  display: inline-block;
+  flex-shrink: 0;
   mix-blend-mode: normal;
+  z-index: 1;
+  margin-left: -14.5px;
+}
+.extraname-style-01,
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .group {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 1.83%;
-  bottom: 0;
-  left: 0;
+  flex: 1;
   overflow: hidden;
 }
 .extraname-style-01 {
-  position: absolute;
-  top: 149px;
-  left: 245px;
   width: 240px;
-  height: 29px;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-mid);
   color: var(--color-gray-100);

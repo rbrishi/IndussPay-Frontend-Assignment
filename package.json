@@ -1,5 +1,5 @@
 {
-  "name": "assignment_-_front_end_dev",
+  "name": "induss",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,8 +23,7 @@
     "@angular/router": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.3",
-    "csstype": "^3.1.2"
+    "zone.js": "~0.14.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.0.7",

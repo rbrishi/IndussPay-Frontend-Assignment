@@ -1,0 +1,297 @@
+.case-studies {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1.63px;
+  text-transform: uppercase;
+}
+.our-works-describe {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1.2px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.case-studies-title,
+.studies-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.studies-description {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-15xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-100);
+}
+.case-studies-title {
+  width: 589px;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.case-studies-title-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+.img-icon {
+  align-self: stretch;
+  height: 540px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.graphic-design2 {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 106px;
+}
+.case-study-type {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.aura-branding-design {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.5px;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gray-100);
+}
+.case-study-content,
+.case-study-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.case-study-content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.case-study-details {
+  width: 292px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xl) var(--padding-9xl);
+  box-sizing: border-box;
+}
+.img-icon1 {
+  align-self: stretch;
+  height: 346px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.web-development2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.case-study-type1 {
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.case-study-content1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.case-study-content1,
+.case-study-details1,
+.case-study-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.case-study-details1 {
+  width: 397px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.case-study-items {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  min-width: 325px;
+}
+.img-icon2 {
+  height: 342px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.case-study-details2,
+.case-study-image {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.case-study-image {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  max-width: 100%;
+}
+.case-study-details2 {
+  width: 297px;
+  padding: 0 var(--padding-10xl) var(--padding-7xl);
+}
+.case-study-details2,
+.case-study-details3,
+.case-study-items1,
+.case-study-type3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.case-study-type3 {
+  width: 110px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.case-study-details3,
+.case-study-items1 {
+  max-width: 100%;
+}
+.case-study-details3 {
+  width: 341px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.case-study-items1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  min-width: 325px;
+}
+.case-study-list,
+.view-more-button-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.case-study-list {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-200);
+}
+.view-more-button-container {
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  font-size: var(--font-size-2xl);
+  color: var(--color-blue);
+}
+.case-studies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-72xl-5);
+  max-width: 100%;
+}
+.case-studies-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-97xl) var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-tomato);
+  font-family: var(--font-gilroy);
+}
+@media screen and (max-width: 1350px) {
+  .case-studies-container-wrapper {
+    padding-bottom: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .case-study-list {
+    gap: var(--gap-16xl);
+  }
+  .case-studies-container {
+    gap: var(--gap-27xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .our-works-describe {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .case-study-items {
+    gap: var(--gap-base);
+  }
+  .case-study-items1,
+  .case-study-list {
+    gap: var(--gap-mid);
+  }
+  .case-studies-container {
+    gap: var(--gap-4xl);
+  }
+  .case-studies-container-wrapper {
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-works-describe {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .aura-branding-design {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .case-studies-container-wrapper {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}

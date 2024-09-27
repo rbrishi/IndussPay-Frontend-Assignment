@@ -1,0 +1,62 @@
+.icon3 {
+  width: 79px;
+  height: 79px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.feature-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.dedicated-project-ma {
+  width: 261px;
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 32px;
+  display: inline-block;
+  z-index: 1;
+}
+.with-lots-of4 {
+  position: relative;
+  font-size: var(--font-size-mid);
+  letter-spacing: -0.2px;
+  line-height: 29px;
+  color: var(--color-gray-200);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.feature-details,
+.feature-pair {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  min-width: 195px;
+}
+.feature-pair {
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  min-width: 266px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-gilroy);
+}
+@media screen and (max-width: 1125px) {
+  .feature-pair {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dedicated-project-ma {
+    font-size: var(--font-size-mid);
+    line-height: 26px;
+  }
+}

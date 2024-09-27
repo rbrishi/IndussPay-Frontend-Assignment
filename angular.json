@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "assignment_-_-front_-end_-dev": {
+    "induss": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/assignment_-_-front_-end_-dev",
+            "outputPath": "dist/induss",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "assignment_-_-front_-end_-dev:build:production"
+              "buildTarget": "induss:build:production"
             },
             "development": {
-              "buildTarget": "assignment_-_-front_-end_-dev:build:development"
+              "buildTarget": "induss:build:development"
             }
           },
           "defaultConfiguration": "development"
