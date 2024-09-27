@@ -1,0 +1,26 @@
+.bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1600px;
+  height: 774px;
+}
+.footer-child,
+.footer2 {
+  position: absolute;
+  top: 295px;
+  left: 248px;
+  width: 1108px;
+  height: 1px;
+}
+.footer2 {
+  top: 6939px;
+  left: 0;
+  width: 100%;
+  height: 792.6px;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-white);
+  font-family: var(--font-gilroy);
+}

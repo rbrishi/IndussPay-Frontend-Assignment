@@ -1,0 +1,38 @@
+.graphic-designer,
+.john-doe {
+  position: absolute;
+  top: calc(50% - 14.5px);
+  letter-spacing: -0.2px;
+  line-height: 29px;
+}
+.john-doe {
+  left: 0;
+  display: inline-block;
+  min-width: 108px;
+}
+.graphic-designer {
+  left: 38.41%;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+}
+.group {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 1.83%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.extraname-style-01 {
+  position: absolute;
+  top: 149px;
+  left: 245px;
+  width: 240px;
+  height: 29px;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-100);
+  font-family: var(--font-gilroy);
+}

@@ -1,0 +1,217 @@
+.case-studies,
+.our-works-describe {
+  position: absolute;
+  display: inline-block;
+}
+.case-studies {
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 1.63px;
+  text-transform: uppercase;
+}
+.our-works-describe {
+  margin: 0;
+  width: 88.46%;
+  top: calc(50% - 28.5px);
+  left: 5.77%;
+  font-size: var(--font-size-17xl);
+  letter-spacing: -1.2px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gray-100);
+}
+.img-icon,
+.title1 {
+  max-width: 100%;
+  overflow: hidden;
+}
+.title1 {
+  height: 135px;
+  width: 589px;
+  position: relative;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-tomato);
+}
+.img-icon {
+  position: absolute;
+  height: 84.38%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 15.63%;
+  left: 0;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aura-branding-design {
+  margin: 0;
+  position: absolute;
+  top: calc(50% + 286px);
+  left: 5.8%;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.graphic-design {
+  position: absolute;
+  top: calc(50% + 254px);
+  left: 6%;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  display: inline-block;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+  min-width: 105px;
+}
+.img-icon1,
+.works-content {
+  max-width: 100%;
+  overflow: hidden;
+}
+.works-content {
+  height: 640px;
+  width: 500px;
+  position: relative;
+  flex-shrink: 0;
+}
+.img-icon1 {
+  position: absolute;
+  height: 76.51%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 23.49%;
+  left: 0;
+  max-height: 100%;
+  object-fit: cover;
+}
+.abs-snack-packaging {
+  margin: 0;
+  position: absolute;
+  top: calc(50% + 189.5px);
+  left: 5.8%;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.graphic-design1 {
+  position: absolute;
+  top: calc(50% + 157.5px);
+  left: 6%;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  display: inline-block;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+  min-width: 105px;
+}
+.copy-4,
+.img-icon2 {
+  max-width: 100%;
+  overflow: hidden;
+}
+.copy-4 {
+  height: 447px;
+  width: 500px;
+  position: relative;
+  flex-shrink: 0;
+}
+.img-icon2 {
+  position: absolute;
+  height: 77.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 22.07%;
+  left: 0;
+  max-height: 100%;
+  object-fit: cover;
+}
+.gradient-website-dev {
+  margin: 0;
+  position: absolute;
+  top: calc(50% + 188px);
+  left: 5.8%;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.web-development {
+  position: absolute;
+  top: calc(50% + 156px);
+  left: 6%;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+}
+.copy-5 {
+  height: 444px;
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.content-writing1 {
+  position: absolute;
+  top: calc(50% + 254px);
+  left: 6%;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  display: inline-block;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+  min-width: 108px;
+}
+.works {
+  position: absolute;
+  top: 4691px;
+  left: 266px;
+  width: 1070px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 16px 70px;
+  min-height: 1495px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-gilroy);
+}
+@media screen and (max-width: 767px) {
+  .our-works-describe {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-works-describe {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .abs-snack-packaging,
+  .aura-branding-design,
+  .gradient-website-dev {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

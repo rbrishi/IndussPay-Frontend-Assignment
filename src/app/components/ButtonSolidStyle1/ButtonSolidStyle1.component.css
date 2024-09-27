@@ -1,0 +1,44 @@
+.hero-button-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-blue);
+}
+.button-name2 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 16.5px);
+  left: 0;
+  letter-spacing: -0.6px;
+  line-height: 32px;
+  display: inline-block;
+}
+.button-12,
+.buttonsolidstyle-04 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.button-12 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.buttonsolidstyle-04 {
+  height: 15.28%;
+  width: 40.67%;
+  top: 84.72%;
+  right: 59.33%;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-gilroy);
+}

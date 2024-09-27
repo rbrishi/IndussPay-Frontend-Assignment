@@ -1,0 +1,50 @@
+.organized-tasks {
+  position: absolute;
+  top: calc(50% - 67px);
+  left: 26.65%;
+  letter-spacing: -0.5px;
+  line-height: 32px;
+}
+.with-lots-of2 {
+  position: absolute;
+  width: 73.35%;
+  top: 35.07%;
+  left: 26.65%;
+  font-size: var(--font-size-mid);
+  letter-spacing: -0.2px;
+  line-height: 29px;
+  display: inline-block;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+}
+.features-content,
+.icon {
+  position: absolute;
+  overflow: hidden;
+}
+.icon {
+  height: 58.96%;
+  width: 19.32%;
+  top: 4.48%;
+  right: 80.68%;
+  bottom: 36.57%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.features-content {
+  top: 351px;
+  left: 849px;
+  width: 409px;
+  height: 134px;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-gilroy);
+}
+@media screen and (max-width: 450px) {
+  .organized-tasks {
+    font-size: var(--font-size-mid);
+    line-height: 26px;
+  }
+}
